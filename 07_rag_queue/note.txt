@@ -1,0 +1,22 @@
+1. qdrant db is already installed from 06_rag
+2. need to install valkey which work like redis.
+3. fastapi need to install
+4. check requirements.txt and install all modules
+5. install valkey using docker -> docker compose up -d
+6. 
+
+how it is working?
+we create fast api route /chat and /result
+once user enter a query it will go to /chat route and we call process_query function.
+it will add into the queue
+/result is used to get the process query result.
+
+
+steps to run/check
+http://127.0.0.1:8000/docs
+.venv311 >> python -m 07_rag_queue.main
+In another terminal open this.
+.venv311 run --> cd 07_rag_queue  --> rq worker / rq worker -w rq.worker.SimpleWorker
+
+
+

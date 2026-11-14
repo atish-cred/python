@@ -1,0 +1,37 @@
+
+Langgraph basically organize your code and conditional based modules.
+e.g. if you have these conditions and one more additional condition needs to be added then whole conditions will get mess.
+For this Langgraph will help here to organize the all conditions / code.
+
+    |------------------- user_query
+    |                        |
+    |                    Planning
+    |                        |
+    |            |----Do i need to search? ------|
+    |            YES                             |
+    |            |                               |-------------- LLM call to final response (This is one additional condition)
+    |        Web search                          |
+    |                                            NO
+    |                                            |
+  No Retry                            LLM call to final response
+    |                                            |
+    |                                            |
+    |------------------------------- Gemini APi call response is good or not?
+
+
+# Nodes --> nodes are functions in Langgraph
+Need to connect all nodes(functions) using edges. edges are define your work flow or connect to your workflow
+edges are connections between the nodes
+
+Node1  ---Edge---|
+                 | <---Edges
+            Node 2
+                 |
+    |----Edge----|
+Node 3                
+
+In Langgraph we create state
+state is nothing but piece of data.
+While running the graph you need to provide the state as an input
+
+

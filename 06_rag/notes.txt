@@ -1,0 +1,10 @@
+## This is synchronous code. Chatgpt is taking time to give the response 10-20 seconds.
+## This is not actual production code.
+## At at time multiple users can use and pdf will also can contain 100 pages per pdf file. It could be multiple pdf as well
+## Here we have added only 1 PDF
+
+1. install all dependancies of python from requirements.txt
+2. install docker and run this command docker compose up and docker compose up -d
+3. open http://localhost:6333/dashboard and check the collection
+4. run the file it will add the qdrant vector db
+5. Make sure you will have you .env file
