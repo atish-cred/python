@@ -1,0 +1,3 @@
+# requests==2.31.0 --> Version specific
+requests==2.31.0
+flask== 3.0.0

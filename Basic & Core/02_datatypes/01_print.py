@@ -1,0 +1,9 @@
+sugar_amount = 2
+print(f"Initial Sugar: {sugar_amount}")  # F is formatted string - used to print
+
+sugar_amount = 12
+print(f"Second Initial Sugar: {sugar_amount}")
+
+#// Identification
+print(f"ID of 2: {id(2)}")
+print(f"ID of 12: {id(12)}")
