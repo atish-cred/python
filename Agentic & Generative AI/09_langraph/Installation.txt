@@ -1,7 +1,25 @@
-py -3.11 -m venv .venvpy -3.11 -m venv .venv
+py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1  --> error --> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 python -m pip install --upgrade pip
 pip install tiktoken langchain langchain-core langchain-community langchain-openai openai langgraph pydantic requests python-dotenv
 pip install fastapi uvicorn pypdf
 python -m pip install langgraph langchain-core langchain-openai langchain
 pip install rq
+
+
+
+python -m pip install --upgrade pip
+
+python -m pip install `
+langgraph `
+langchain `
+langchain-core `
+langchain-openai `
+langchain-community `
+langchain-text-splitters `
+langchain-qdrant `
+langgraph-checkpoint-mongodb `
+python-dotenv `
+openai `
+typing_extensions `
+pypdf

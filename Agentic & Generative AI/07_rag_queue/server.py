@@ -2,8 +2,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from fastapi import FastAPI, Query
-from .client.rq_client import queue
-from .queues.worker import process_query
+from client.rq_client import queue
+from queues.worker import process_query
 
 app = FastAPI()
 

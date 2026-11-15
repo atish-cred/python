@@ -1,0 +1,3 @@
+After running the program 
+go to http://localhost:6333/dashboard#/collections
+you will see the memory there
