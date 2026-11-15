@@ -1,0 +1,14 @@
+username: c8a4a8ff
+password: d61rmtVjJvcVUi7tFxmkk9wXJPBTzVibrK7dNWBc62k
+
+neo4j
+2MlVNIiLBA0A1_qGRBUK4lRslN6gmhJY_1_Y6Kpn0rs
+
+
+login to neo4j-> aura login -> atish.leza
+1. create instance or select existing one
+2. create cypher query.
+https://console.neo4j.io/projects/2eb56d36-fc33-4bc9-a8e4-f8e02a28a0e6/studio/query
+
+complete the Lecture 27th last 2 videos. It is used 09_langraph module
+

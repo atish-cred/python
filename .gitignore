@@ -1,6 +1,10 @@
 
 .venv
 .vscode
-# .env
-# *.pyc
+.env
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
 
